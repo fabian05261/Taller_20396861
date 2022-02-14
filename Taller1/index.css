@@ -1,0 +1,42 @@
+h1
+{
+    color:blue;
+}
+.Mascotas1
+{
+    margin: 10px auto;
+    display: block;
+    width: 400px ;
+    height: 400px ;
+}
+p 
+{
+    font-size: 15px;
+    font-size: 1.5rem;    
+    line-height: 1.333333334;
+    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+.Mision1
+{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}-->
+html 
+{
+    font-size: 90.5%;
+    line-height: 1;
+}
+.cuerpoIndex
+{
+    background-color: peru;
+}
+.menuInicio
+{
+    width: 89%;
+    text-align: center;
+    display: inline-block;
+    margin: 0 5px;
+}

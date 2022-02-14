@@ -1,0 +1,36 @@
+.Mision1
+{
+    width: 150pt;
+    font-size: 10pt;
+    margin-bottom: 5pt;
+    text-align: justify;
+}
+.Vision1
+{
+    width: 150pt;
+    font-size: 10pt;
+    margin-bottom: 5pt;
+    text-align: justify; 
+}
+.MVO
+{
+    -webkit-column-count: 3;
+    column-count: 3;
+}
+/*.MVO > div
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 39%;
+}*/
+.nosotrosCuerpo
+{
+    background-color: coral;
+}
+.nosotrosCl
+{
+    margin: 10px auto;
+    display: block;
+    width: 400px ;
+    height: 300px ;
+}

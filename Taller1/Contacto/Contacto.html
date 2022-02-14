@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="Contacto.js"></script>
+    <link rel="stylesheet" href="../Contacto/Contacto.css">
+</head>
+<body class="cuerpoContacto">
+    <a href="../index.html">Regresar al inicio</a>
+    <h1><center>Informacion Usuario</center></h1>
+    <img class="perritos" src="../imagenes/perritos caminando.gif" alt="">
+    <form name="DatosUsuario">
+        <div>
+            <label for="txt-nombreUsuario">Nombre Usuario</label>
+            <input type="text" id="nombreUsuario" name="nombreUsuario" placeholder="Ingrese su nombre">
+        </div>
+        <br>
+        <div>
+            <label for="txt-emailUsuario">Email:</label>
+            <input type="email" id="emailUsuario" name="emailUsuario" placeholder="ejemplo@correo.com">
+        </div>
+        <br>
+        <div>
+            <label for="txt-Edad">Edad</label>
+            <input type="number" id="Edad" name="Edad" >
+        </div>
+        <div>
+          <!--  <input type="button" name="registrar" value="Registrar" onclick="obtenerDatos()">-->
+          <button type="button" onclick="obtenerDatos()">Enviar Datos</button>
+        </div>
+        <br>
+    </form>
+
+
+    <h1>Informacion Sobre Mascota</h1>
+    <form name="DatosMascota">
+        <div>
+            <label for="txt-nombre:">Nombre</label>
+            <input type="text" id="txt-nombre" name="txt-nombre" placeholder="Ingrese el nombre de su mascota">
+        </div>
+        <br>
+        <div>
+            <label for="txt-raza:">Raza</label>
+            <input type="text"id="txt-raza"name="txt-raza"placeholder="Ingrese la raza de su mascota">
+        </div>
+        <br>
+        <div>
+            <label for="txt-edad:">Edad</label>
+            <input type="text" id="txt-edad"name="txt-edad"placeholder="Ingrese la edad de su mascota">
+        </div>
+        <div>
+            <br>
+            <label for="cbb-tipo">Seleccione el tipo de mascota</label>
+            <select>
+                <option value="">Seleccione</option>
+                <option value="">Perro</option>
+                <option value="">Gato</option>
+                <option value="">Conejo</option>
+                <option value="">Ave</option>
+                <option value="">Otro</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <h2>Información Médica de tu mascota</h2>
+        <div>
+            <label for="txt1"></label>
+            <textarea name="textarea"id="txt1" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="enviar" value="Enviar Datos" onclick="obtenerDatos()">
+        <label id="lbl-nombreUsuario"></label>
+
+
+
+
+    </form>
+</body>
+</html>

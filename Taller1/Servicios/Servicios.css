@@ -1,0 +1,15 @@
+.cuerpoServicios
+{
+    background-color: lightsalmon;
+}
+.servicioAIndex
+{
+    text-align: right;
+}
+.mascotasJugando
+{
+    margin: 10px auto;
+    display: block;
+    width: 400px ;
+    height: 300px ;
+}
